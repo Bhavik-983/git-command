@@ -2,7 +2,10 @@
 2.git config --global user.name "your name"
 3.git config --global user.email "your email"
 4.git config user.name or user.email etc
-
+5.git init (use for git initalization in our project)
+6.ls -a , ls -a .git (use for shows .git directory , in windows go to the views option and checked hiddenfiles)
+7.rm -rf .git (use for remove .git folder)
+8.
 
 
 
