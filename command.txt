@@ -1,0 +1,44 @@
+1.git config --list
+2.git config --global user.name "your name"
+3.git config --global user.email "your email"
+4.git config user.name or user.email etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com" or ssh-keygen -t ed25519 -C "youremail@gmail.com" use for generate ssh key
+after enter the until not shows:
+Your identification has been saved in /home/ankit/.ssh/id_ed21217
+Your public key has been saved in /home/ankit/.ssh/id_ed21217.pub
+The key fingerprint is:
+SHA256:hh5EFXXJBUNYnBBegW20UUWdnKilPSdeDJdcMPLMM youremail@example.com
+The key's randomart image is:
++--[ED25519 256]--+
+|      ..ooE&&B.  |
+|     .   oo=B=   |
+|      . . =.+    |
+|     . . . = . . |
+|      o S o = +  |
+|     . o   . X   |
+|      .     + =  |
+|           ooo o |
+|          ..o=+  |
++----[SHA256]-----+
+2.cat < ~/.ssh/id_ed25519.pub
+results of this command
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGcvPIoDIGUj+aSEXVd1Ze/kgzp8TPBjx8b5cg7ssnlb youremail@example.com
+
+copy this ssh key and go to gitgub , then go to in setting section then click on SSH and GPG optiond after then click on New SSH Key button then Paste the received key in key box and create.
+
+ 
