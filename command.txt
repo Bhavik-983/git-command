@@ -3,9 +3,14 @@
 3.git config --global user.email "your email"
 4.git config user.name or user.email etc
 5.git init (use for git initalization in our project)
-6.ls -a , ls -a .git (use for shows .git directory , in windows go to the views option and checked hiddenfiles)
+6.ls -a , ls -a .git (used to view .git directory , in windows go to the views option and checked hiddenfiles)
 7.rm -rf .git (use for remove .git folder)
-8.
+8.git add . (use for track all untracked files and we can track any particular file)
+9.git commit -m "updated message" (use for commit tracked files)
+11.git log (used to view commit)
+12.git remote add origin (location)
+13.git push origin(remote location name) master(remote branch name) (use for push code on repository)
+
 
 
 
