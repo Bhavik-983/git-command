@@ -2,3 +2,7 @@ my name is bhavik senjaliya
 my brother name is dharmesh senjaliya
 my name is bhavik senjaliya
 
+1.working area
+2.after use add . all code going in to the staging/cache area
+3.afetr commit all code going in to the local repo / commitrd area 
+4.after push code all code going in to the remote location

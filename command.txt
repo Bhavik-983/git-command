@@ -7,7 +7,9 @@
 7.rm -rf .git (use for remove .git folder)
 8.git add . (use for track all untracked files and we can track any particular file)
 9.git commit -m "updated message" (use for commit tracked files)
-11.git log (used to view commit)
+11.git log (used to view commit) , git log --oneline (use for view commit in sort(one line) ), git log -1(-2,-3.....) (use for view latest commit),
+git log --grep="commited meassage"
+
 12.git remote add origin (location)
 13.git push origin(remote location name) master(remote branch name) (use for push code on repository)
 
