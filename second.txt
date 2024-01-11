@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 this is best
 this is second file
+=======
+this is second file
+this is best
+>>>>>>> first
