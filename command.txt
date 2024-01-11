@@ -12,8 +12,10 @@ git log --grep="commited meassage"
 
 12.git remote add origin (location)
 13.git push origin(remote location name) master(remote branch name) (use for push code on repository)
-
-
+14.git branch branchname (use for create branch)
+15.git branch branchname commithash (use for create branch of after particular commited message)
+16.git branch -d branchname (use for remove branch for local repository)
+16.git push -d origin main (use for remove branch for remote repository)
 
 
 
