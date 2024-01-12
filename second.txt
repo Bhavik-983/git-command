@@ -7,7 +7,6 @@ this is best file for use1
 =======
 this is best file for use
 this is best file for use22
->>>>>>> first
 
 
 
