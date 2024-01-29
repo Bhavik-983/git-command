@@ -5,17 +5,28 @@
 5.git init (use for git initalization in our project)
 6.ls -a , ls -a .git (used to view .git directory , in windows go to the views option and checked hiddenfiles)
 7.rm -rf .git (use for remove .git folder)
-8.git add . (use for track all untracked files and we can track any particular file)
+8.git add . , git add -A (use for track all untracked(new files,modified files,deleted files) files and we can track any particular file), git add -u(use for track all untracked(modified files,deleted files)files)
 9.git commit -m "updated message" (use for commit tracked files)
 11.git log (used to view commit) , git log --oneline (use for view commit in sort(one line) ), git log -1(-2,-3.....) (use for view latest commit),
 git log --grep="commited meassage"
-
-12.git remote add origin (location)
+12.git remote add origin (location) , git remote rename origin new_origin_name (use for rename origin name)
 13.git push origin(remote location name) master(remote branch name) (use for push code on repository)
 14.git branch branchname (use for create branch)
 15.git branch branchname commithash (use for create branch of after particular commited message)
-16.git branch -d branchname (use for remove branch for local repository)
-16.git push -d origin main (use for remove branch for remote repository)
+17.git branch -d branchname (use for remove branch for local repository)
+18.git push -d origin main (use for remove branch for remote repository)
+19.git merge branchname
+20.git stash (use for remove uncommited change) , git stash save "first stash" (use for remove uncommited change with message)
+21.git stash list (use for get stashing code) ,git stash show(we can get latest stashed data), git stash show stash@{1}(we can get particular stashed data) , git stash show stash@{1} -p (we can get particular stashed data in details) 
+22.git stash apply (use for get top stashed data),git stash apply stashingname(stash@{0}) (use for get which code is stashed),git stash drop (use for delete stash from stashlist),git stash pop (use for get stashed data and remove stash from stashlist)
+23.git stash clear (use for remove all stash from stash list)
+24.git commit -a -m "skipped staging area" or git commit -am "skipped staging area"(use for combined git add and git commit cmd,this cmd is not working for new files)
+25.git diff(use for views different between working area and cache/staging area)
+26.git diff --staged or git diff --cached(use for views different between cache/staging area and commited area)
+27.git diff --HEAD(head) (use for views difference between working area and commited area)
+28.git rm --cached fileName (use for removed file when file is in staging area)
+29.git restore filename (use for restore your file)
+30.git reset commit(hashingcode)(use for remove commit) after using this commit we need to use (git push -f demo master) cmd for push 
 
 
 
@@ -27,9 +38,7 @@ git log --grep="commited meassage"
 
 
 
-
-
-1. ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com" or ssh-keygen -t ed25519 -C "youremail@gmail.com" use for generate ssh key
+1. ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com" or ssh-keygen -t ed25519 -C "youremail@gmail.com" (use for generate ssh key)
 after enter the until not shows:
 Your identification has been saved in /home/ankit/.ssh/id_ed21217
 Your public key has been saved in /home/ankit/.ssh/id_ed21217.pub
